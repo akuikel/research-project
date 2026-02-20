@@ -80,7 +80,7 @@ def _classify_subject_llm(text: str) -> str:
     try:
         client = _get_client()
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite",
+            model="gemini-2.5-flash",
             contents=(
                 "Classify the subject domain of this Spanish educational chatbot prompt. "
                 "Respond with ONE word only from: matemáticas, lectura, historia, ciencias, lengua, otro\n\n"
@@ -193,7 +193,7 @@ def _classify_with_llm(text: str, max_retries: int = 2) -> dict:
         try:
             client = _get_client()
             response = client.models.generate_content(
-                model="gemini-2.5-flash-lite",
+                model="gemini-2.5-flash",
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     temperature=0,

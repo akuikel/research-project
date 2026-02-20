@@ -1,0 +1,30 @@
+15:01:23 [INFO] [w1] Classifying (125 chars)...
+15:01:24 [INFO] AFC is enabled with max remote calls: 10.
+15:01:24 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+15:01:24 [INFO] [w1] Done — domain=matemáticas, tone=calido, words=21
+15:01:24 [INFO] [w2] Classifying (148 chars)...
+15:01:24 [INFO] AFC is enabled with max remote calls: 10.
+15:01:25 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+15:01:25 [INFO] [w2] Done — domain=matemáticas, tone=calido, words=25
+15:01:25 [INFO] [w3] Classifying (179 chars)...
+15:01:25 [INFO] AFC is enabled with max remote calls: 10.
+15:01:25 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+15:01:25 [INFO] [w3] Done — domain=matemáticas, tone=calido, words=29
+15:01:25 [INFO] [w4] Classifying (230 chars)...
+15:01:25 [INFO] AFC is enabled with max remote calls: 10.
+15:01:26 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+15:01:26 [INFO] [w4] Done — domain=matemáticas, tone=calido, words=37
+--- Longitudinal Raw Classifications ---
+ week   tone scaffolding_depth motivational_strategies cultural_references
+    1 calido              bajo                  elogio             ausente
+    2 calido             medio                  elogio             ausente
+    3 calido              alto                  elogio             ausente
+    4 calido             medio                multiple            presente
+
+--- Week-over-Week Change (Delta) ---
+      tone_score  scaffolding_score  motivation_score  culture_score
+week                                                                
+1            0.0                0.0               0.0            0.0
+2            0.0                1.0               0.0            0.0
+3            0.0                1.0               0.0            0.0
+4            0.0               -1.0               1.0            1.0

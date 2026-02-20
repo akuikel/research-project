@@ -1,0 +1,7 @@
+
+--- IRR Cohen's Kappa Results ---
+              Dimension  Kappa (k)  Valid Samples
+                   tone      0.106             15
+      scaffolding_depth      0.005             15
+motivational_strategies      0.129             15
+    cultural_references      0.706             15
