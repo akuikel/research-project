@@ -1,0 +1,13 @@
+google-generativeai>=0.5.4
+datasets>=2.18.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pandas>=2.0.0
+textstat>=0.7.3
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+jupyter>=1.0.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+numpy>=1.24.0
+nbformat>=5.9.0

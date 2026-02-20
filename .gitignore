@@ -1,0 +1,27 @@
+# Environment variables — never commit real API keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data — raw/processed data is large; keep out of repo
+data/raw/
+data/processed/
+
+# Generated HTML export (regenerate with nbconvert)
+dist/
+
+# Debug scripts
+debug_gemini.py
+
+# OS
+.DS_Store
+Thumbs.db
