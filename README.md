@@ -1,5 +1,7 @@
 # Spanish Educational Chatbot Prompt Analyzer
 
+##Hosted at: https://research-project-git-master-aavash-kuikels-projects.vercel.app/
+
 ## Overview
 
 This project builds a complete data pipeline for collecting, classifying, and analyzing Spanish-language educational chatbot system prompts. It scrapes prompts from GitHub and public Hugging Face datasets, supplements them with Gemini-generated synthetic examples, and classifies each prompt across six research-relevant dimensions using keyword matching and the free Gemini 1.5 Flash API. The result is a clean, structured dataset ready for quantitative analysis — demonstrating the exact skills required for academic NLP research on AI tutoring tools.
