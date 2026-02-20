@@ -17,7 +17,7 @@ data/raw/
 data/processed/
 
 # Generated HTML export (regenerate with nbconvert)
-dist/
+
 
 # Debug scripts
 debug_gemini.py
