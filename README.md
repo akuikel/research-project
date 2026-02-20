@@ -1,6 +1,6 @@
 # Spanish Educational Chatbot Prompt Analyzer
 
-##Hosted at: [https://research-project-git-master-aavash-kuikels-projects.vercel.app/](https://research-project-inky.vercel.app/)
+##Hosted at: https://research-project-inky.vercel.app/ 
 
 ## Overview
 
